@@ -105,6 +105,11 @@ public sealed class Listener(ListenerParams parameters) : IDisposable
 
     void IDisposable.Dispose()
     {
+        if (disposed)
+        {
+            return;
+        }
+
         try
         {
             DisposeStartedEvent?.Invoke(this, new());

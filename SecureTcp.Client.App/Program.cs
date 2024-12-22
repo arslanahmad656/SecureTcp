@@ -45,6 +45,8 @@ class Program
 
     private static bool ValidateServerCertificate(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
     {
+        return true;
+
         // Accept all certificates for testing purposes. Do NOT use this in production.
         // In production, validate the server certificate properly.
         if (sslPolicyErrors == SslPolicyErrors.None)

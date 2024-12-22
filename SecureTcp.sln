@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureTcp.Shared", "SecureT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureTcp.Client.App", "SecureTcp.Client.App\SecureTcp.Client.App.csproj", "{9CF5A1AD-BE30-48FB-ADC1-5ACB185DE84B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureTcp.Server.App", "SecureTcp.Server.App\SecureTcp.Server.App.csproj", "{EC2A310B-BB2C-4056-9C1D-7A57F86E9C55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9CF5A1AD-BE30-48FB-ADC1-5ACB185DE84B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CF5A1AD-BE30-48FB-ADC1-5ACB185DE84B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CF5A1AD-BE30-48FB-ADC1-5ACB185DE84B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC2A310B-BB2C-4056-9C1D-7A57F86E9C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC2A310B-BB2C-4056-9C1D-7A57F86E9C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC2A310B-BB2C-4056-9C1D-7A57F86E9C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC2A310B-BB2C-4056-9C1D-7A57F86E9C55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

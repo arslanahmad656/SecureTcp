@@ -26,7 +26,7 @@ internal class ClientHandler(Guid clientId, SslStream stream)
         {
             ex.Data.Add("clientid", clientId);
             ErrorEvent?.Invoke(this, new ErrorEventArgs("Error occurred while receiving the message.", ex));
-            return null;
+            throw;
         }
     }
 
@@ -40,6 +40,7 @@ internal class ClientHandler(Guid clientId, SslStream stream)
         {
             ex.Data.Add("clientid", clientId);
             ErrorEvent?.Invoke(this, new ErrorEventArgs("Error occurred while sending the message.", ex));
+            throw;
         }
     }
 }
